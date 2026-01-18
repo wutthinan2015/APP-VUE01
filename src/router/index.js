@@ -8,10 +8,10 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/Customer',
+    name: 'Customer',
    
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Customer.vue')
 
   },
 
@@ -21,7 +21,30 @@ const routes = [
    
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
 
-  }
+  },
+
+  {
+    path: '/type',
+    name: 'type',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/type.vue')
+
+  },
+
+  
+  {
+    path: '/employees',
+    name: 'employees',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/employees.vue')
+
+  },
+
+
+  
+ 
+ 
+ 
 ]
 
 const router = createRouter({

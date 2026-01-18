@@ -20,11 +20,20 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/About">About</a>
+          <a class="nav-link" href="Customer">Customer</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="/Contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/employees">employees</a>
+        </li>
+
+
+<li class="nav-item">
+          <a class="nav-link" href="/type">type</a>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
