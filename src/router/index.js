@@ -40,6 +40,48 @@ const routes = [
 
   },
 
+  {
+    path: '/add_customer',
+    name: 'add_customer',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/Add_customer.vue')
+
+  },
+
+  {
+    path: '/add_employee',
+    name: 'employee',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/Add_employee.vue')
+
+  },
+
+  {
+    path: '/product',
+    name: 'product',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/Product.vue')
+
+  },
+
+  {
+    path: '/product_api',
+    name: 'product_api',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/Product_api.vue')
+
+  },
+
+  {
+    path: '/show_product',
+    name: 'show_product',
+   
+    component: () => import(/* webpackChunkName: "about" */ '../views/Show_product.vue')
+
+  }
+
+
+
 
   
  
